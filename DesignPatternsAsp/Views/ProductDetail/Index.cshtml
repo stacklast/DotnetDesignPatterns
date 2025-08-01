@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    decimal totalLocal = (decimal)ViewBag.TotalLocal;
+    decimal totalForeign = (decimal)ViewBag.TotalForeign;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Index</h2>
+        <p>Total Local: @totalLocal</p>
+        <p>Welcome to the Index page!</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Foreign Total</h2>
+        <p>Total Foreign: @totalForeign</p>
+    </div>
+</div>
